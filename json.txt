@@ -1,0 +1,416 @@
+{
+	"results": [{
+		"score": 1337,
+		"playerName": "Sean Plott",
+		"cheatMode": false,
+		"createdAt": "2012-07-11T20:56:12.347Z",
+		"updatedAt": "2012-07-11T20:56:12.347Z",
+		"objectId": "fchpZwSuGG"
+	}]
+}
+
+{
+	"results": [{
+		"imageFile": {
+			"__type": "File",
+			"name": "tfss-d25f7a5d-fedc-4622-849b-47b54afa7d32-lanita.JPG",
+			"url": "http://files.parsetfss.com/35ab9e52-0d76-43ae-9352-b3dda3a8ddbe/tfss-d25f7a5d-fedc-4622-849b-47b54afa7d32-lanita.JPG"
+		},
+		"locPoint": {
+			"__type": "GeoPoint",
+			"latitude": 37.42,
+			"longitude": -122.155
+		},
+		"name": "lanita",
+		"sillyNum": -14,
+		"createdAt": "2014-07-13T00:29:25.250Z",
+		"updatedAt": "2014-07-15T01:21:01.788Z",
+		"objectId": "wXC2l6u7o5"
+	},
+	{
+		"imageFile": {
+			"__type": "File",
+			"name": "tfss-6c476cbc-fb2c-4698-8c98-5a29ebd1cda4-boo beret.jpg",
+			"url": "http://files.parsetfss.com/35ab9e52-0d76-43ae-9352-b3dda3a8ddbe/tfss-6c476cbc-fb2c-4698-8c98-5a29ebd1cda4-boo%20beret.jpg"
+		},
+		"locPoint": {
+			"__type": "GeoPoint",
+			"latitude": 37.42,
+			"longitude": -122.15559
+		},
+		"name": "boo beret",
+		"sillyNum": 33.1,
+		"createdAt": "2014-07-14T20:52:55.169Z",
+		"updatedAt": "2014-07-15T01:20:55.382Z",
+		"objectId": "H472YP1nqU"
+	},
+	{
+		"imageFile": {
+			"__type": "File",
+			"name": "tfss-47e72457-26b1-4035-981a-041e046052a2-Adrian Hluhluwe.jpg",
+			"url": "http://files.parsetfss.com/35ab9e52-0d76-43ae-9352-b3dda3a8ddbe/tfss-47e72457-26b1-4035-981a-041e046052a2-Adrian%20Hluhluwe.jpg"
+		},
+		"locPoint": {
+			"__type": "GeoPoint",
+			"latitude": 37.42063,
+			"longitude": -122.155955
+		},
+		"name": "boo",
+		"sillyNum": 22,
+		"createdAt": "2014-07-13T00:22:14.967Z",
+		"updatedAt": "2014-07-15T01:20:45.690Z",
+		"objectId": "ZNjCKnqFTv"
+	}]
+}
+
+
+{
+	"results": [{
+		"theWit": {
+			"imageFile": {
+				"__type": "File",
+				"name": "tfss-6c476cbc-fb2c-4698-8c98-5a29ebd1cda4-boo beret.jpg",
+				"url": "http://files.parsetfss.com/35ab9e52-0d76-43ae-9352-b3dda3a8ddbe/tfss-6c476cbc-fb2c-4698-8c98-5a29ebd1cda4-boo%20beret.jpg"
+			},
+			"locPoint": {
+				"__type": "GeoPoint",
+				"latitude": 37.42,
+				"longitude": -122.15559
+			},
+			"name": "boo beret",
+			"sillyNum": 33.1,
+			"createdAt": "2014-07-14T20:52:55.169Z",
+			"updatedAt": "2014-07-15T01:20:55.382Z",
+			"objectId": "H472YP1nqU",
+			"__type": "Object",
+			"className": "Wit"
+		},
+		"canvasName": "C1",
+		"createdAt": "2014-07-29T00:00:37.444Z",
+		"updatedAt": "2014-07-29T00:01:05.604Z",
+		"objectId": "wB2xHC9i1S"
+	}]
+}
+
+
+{
+	"results": [{
+		"className": "Action",
+		"fields": {
+			"ACL": {
+				"type": "ACL"
+			},
+			"actionDate": {
+				"type": "Date"
+			},
+			"actionType": {
+				"type": "String"
+			},
+			"canvasWithWit": {
+				"type": "Pointer",
+				"targetClass": "Canvas"
+			},
+			"challengeComment": {
+				"type": "String"
+			},
+			"challengees": {
+				"type": "Array"
+			},
+			"createdAt": {
+				"type": "Date"
+			},
+			"discoveryComment": {
+				"type": "String"
+			},
+			"objectId": {
+				"type": "String"
+			},
+			"updatedAt": {
+				"type": "Date"
+			},
+			"user": {
+				"type": "Pointer",
+				"targetClass": "_User"
+			}
+		}
+	},
+	{
+		"className": "_Role",
+		"fields": {
+			"ACL": {
+				"type": "ACL"
+			},
+			"GCMSenderId": {
+				"type": "String"
+			},
+			"badge": {
+				"type": "Number"
+			},
+			"channels": {
+				"type": "Array"
+			},
+			"createdAt": {
+				"type": "Date"
+			},
+			"deviceToken": {
+				"type": "String"
+			},
+			"deviceType": {
+				"type": "String"
+			},
+			"installationId": {
+				"type": "String"
+			},
+			"localeIdentifier": {
+				"type": "String"
+			},
+			"name": {
+				"type": "String"
+			},
+			"objectId": {
+				"type": "String"
+			},
+			"pushType": {
+				"type": "String"
+			},
+			"roles": {
+				"type": "Relation",
+				"targetClass": "_Role"
+			},
+			"timeZone": {
+				"type": "String"
+			},
+			"updatedAt": {
+				"type": "Date"
+			},
+			"users": {
+				"type": "Relation",
+				"targetClass": "_User"
+			}
+		}
+	},
+	{
+		"className": "WezFile",
+		"fields": {
+			"ACL": {
+				"type": "ACL"
+			},
+			"createdAt": {
+				"type": "Date"
+			},
+			"file": {
+				"type": "File"
+			},
+			"objectId": {
+				"type": "String"
+			},
+			"title": {
+				"type": "String"
+			},
+			"type": {
+				"type": "String"
+			},
+			"updatedAt": {
+				"type": "Date"
+			}
+		}
+	},
+	{
+		"className": "Wit",
+		"fields": {
+			"ACL": {
+				"type": "ACL"
+			},
+			"author": {
+				"type": "Pointer",
+				"targetClass": "_User"
+			},
+			"contentFile": {
+				"type": "Pointer",
+				"targetClass": "WezFile"
+			},
+			"createdAt": {
+				"type": "Date"
+			},
+			"name": {
+				"type": "String"
+			},
+			"objectId": {
+				"type": "String"
+			},
+			"pointerImage": {
+				"type": "Pointer",
+				"targetClass": "WezFile"
+			},
+			"type": {
+				"type": "String"
+			},
+			"updatedAt": {
+				"type": "Date"
+			}
+		}
+	},
+	{
+		"className": "Canvas",
+		"fields": {
+			"ACL": {
+				"type": "ACL"
+			},
+			"altitude": {
+				"type": "Number"
+			},
+			"altitudeAccuracy": {
+				"type": "Number"
+			},
+			"author": {
+				"type": "Pointer",
+				"targetClass": "_User"
+			},
+			"canvasImage": {
+				"type": "Pointer",
+				"targetClass": "WezFile"
+			},
+			"challenge": {
+				"type": "String"
+			},
+			"createdAt": {
+				"type": "Date"
+			},
+			"iconImage": {
+				"type": "Pointer",
+				"targetClass": "WezFile"
+			},
+			"internalStatus": {
+				"type": "String"
+			},
+			"location": {
+				"type": "GeoPoint"
+			},
+			"locationAccuracy": {
+				"type": "Number"
+			},
+			"name": {
+				"type": "String"
+			},
+			"objectId": {
+				"type": "String"
+			},
+			"public": {
+				"type": "Boolean"
+			},
+			"status": {
+				"type": "String"
+			},
+			"updatedAt": {
+				"type": "Date"
+			},
+			"wit": {
+				"type": "Pointer",
+				"targetClass": "Wit"
+			},
+			"witX": {
+				"type": "Number"
+			},
+			"witY": {
+				"type": "Number"
+			}
+		}
+	},
+	{
+		"className": "TestObject",
+		"fields": {
+			"ACL": {
+				"type": "ACL"
+			},
+			"createdAt": {
+				"type": "Date"
+			},
+			"foo": {
+				"type": "String"
+			},
+			"objectId": {
+				"type": "String"
+			},
+			"updatedAt": {
+				"type": "Date"
+			}
+		}
+	},
+	{
+		"className": "_User",
+		"fields": {
+			"ACL": {
+				"type": "ACL"
+			},
+			"authData": {
+				"type": "Object"
+			},
+			"createdAt": {
+				"type": "Date"
+			},
+			"email": {
+				"type": "String"
+			},
+			"emailVerified": {
+				"type": "Boolean"
+			},
+			"error": {
+				"type": "Object"
+			},
+			"lastSeen": {
+				"type": "Date"
+			},
+			"objectId": {
+				"type": "String"
+			},
+			"password": {
+				"type": "String"
+			},
+			"success": {
+				"type": "Object"
+			},
+			"updatedAt": {
+				"type": "Date"
+			},
+			"username": {
+				"type": "String"
+			}
+		}
+	},
+	{
+		"className": "_Session",
+		"fields": {
+			"ACL": {
+				"type": "ACL"
+			},
+			"createdAt": {
+				"type": "Date"
+			},
+			"createdWith": {
+				"type": "Object"
+			},
+			"expiresAt": {
+				"type": "Date"
+			},
+			"installationId": {
+				"type": "String"
+			},
+			"objectId": {
+				"type": "String"
+			},
+			"restricted": {
+				"type": "Boolean"
+			},
+			"sessionToken": {
+				"type": "String"
+			},
+			"updatedAt": {
+				"type": "Date"
+			},
+			"user": {
+				"type": "Pointer",
+				"targetClass": "_User"
+			}
+		}
+	}]
+}
